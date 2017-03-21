@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#000080">
+
+    <ImageView
+        android:id="@+id/imageViewOTP"
+        android:layout_width="188dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.46"
+        app:srcCompat="@drawable/vahan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify OTP"
+        android:paddingTop="20dp"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        android:textColor="#00bfff"/>
+
+    <EditText
+        android:id="@+id/OTPCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:maxLength="6"
+        android:textSize="22dp"
+        android:hint="           XXX XXX"
+        android:layout_gravity="center"
+        android:textColorHint="#B0C4DE"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:inputType="phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 6-digit code"
+        android:paddingTop="5dp"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnNextOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:background="#00bfff"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
+
