@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "649953598427",
+    "firebase_url": "https://vahaan-2437b.firebaseio.com",
+    "project_id": "vahaan-2437b",
+    "storage_bucket": "vahaan-2437b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649953598427:android:299b3f4ec98f103d",
+        "android_client_info": {
+          "package_name": "com.example.jarvis.vahaan_beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649953598427-715jaaeuq56aviuo2td18tqs10jletpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtTsSLHDk_DJfz7cOsF9rCwQR6w_SRY8A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context="com.example.jarvis.vahaan_beta.register">
+
+
+    <!--<TextView
+        android:text="Emil Address:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txtEmailRegistration" />
+
+    <TextView
+        android:text="Password:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/txtEmailRegistration"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2" />-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtPasswordRegistration"
+        android:hint="Password"
+        android:layout_below="@+id/txtEmailRegistration"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtEmailRegistration"
+        android:hint="Email Address"
+        android:layout_marginTop="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Register"
+        android:background="#DD2C00"
+        android:textColor="#fff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnRegistrationUser_Click"
+        android:id="@+id/btnRegistrationUser"
+        android:layout_marginTop="111dp"
+        android:layout_below="@+id/txtPasswordRegistration"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
